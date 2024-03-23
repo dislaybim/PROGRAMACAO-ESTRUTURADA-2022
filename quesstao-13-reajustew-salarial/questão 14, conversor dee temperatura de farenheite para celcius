@@ -1,0 +1,8 @@
+#quesstão 14) converter farenheite para celcius e kelvin
+
+f=float(input('digite o valor da temperatura(ºF): '))
+
+c=(f*5-32*5)/9
+k=c+273
+
+print('essa sua temperatura de {:.2f}ºF pode ser entendido como: \n\n{:.2f}°C \n{:.2f}'.format(f,c,k))
